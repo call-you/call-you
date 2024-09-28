@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Business Directory</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Local Business Directory</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#business-list">Businesses</a></li>
+                <li><a href="#add-business">Add Business</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to the Local Business Directory</h2>
+        <p>Find and explore businesses in your area.</p>
+    </section>
+
+    <section id="business-list">
+        <h2>Business Listings</h2>
+        <ul id="businesses">
+            <!-- Businesses will be dynamically added here -->
+        </ul>
+    </section>
+
+    <section id="add-business">
+        <h2>Add Your Business</h2>
+        <form id="business-form">
+            <label for="name">Business Name:</label>
+            <input type="text" id="name" required>
+            <label for="address">Address:</label>
+            <input type="text" id="address" required>
+            <label for="phone">Phone:</label>
+            <input type="text" id="phone" required>
+            <label for="category">Category:</label>
+            <input type="text" id="category" required>
+            <button type="submit">Add Business</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>For more information, contact us at <a href="mailto:info@localdirectory.com">info@localdirectory.com</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Local Business Directory</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
